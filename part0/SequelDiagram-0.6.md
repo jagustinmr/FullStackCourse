@@ -15,5 +15,5 @@ sequenceDiagram
     server-->>browser: 201 Created (JSON response)
     deactivate server
 
-    Note right of browser: SPA updates the local notes list without reloading the UI
+    Note right of browser: SPA updates the local notes list without reloading the page
 ```

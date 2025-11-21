@@ -24,6 +24,4 @@ sequenceDiagram
     activate server
     server-->>browser: JSON list of notes
     deactivate server
-
-    Note right of browser: The SPA renders the notes dynamically<br>without reloading the page
 ```

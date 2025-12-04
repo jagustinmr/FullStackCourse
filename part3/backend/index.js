@@ -42,7 +42,7 @@ const logger = morgan(function (tokens, req, res) {
     JSON.stringify(req.body),
   ].join(" ");
 });
-//server.use(app.static("dist"));
+server.use(app.static("dist"));
 server.use(cors());
 server.use(app.json());
 server.use(logger);

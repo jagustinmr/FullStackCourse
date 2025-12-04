@@ -75,9 +75,12 @@ const App = () => {
         setPersons(persons.concat(response))
         setNewName('')
         setNewNumber('')
+        setNotificationStyle(notificationStyleSuccess)
+        notificationMessageChange(`Added ${newName}`, notificationStyleSuccess)
+      }).catch(error => {
+        setNotificationStyle(notificationStyleError)
+        notificationMessageChange(error.response.data.error)
       })
-      setNotificationStyle(notificationStyleSuccess)
-      notificationMessageChange(`Added ${newName}`, notificationStyleSuccess)
     }
 
   }

@@ -137,8 +137,6 @@ server.delete("/api/persons/:id", (req, res, next) => {
 });
 
 const errorHandler = (error, request, response, next) => {
-  console.error(33333, error);
-  console.error(44444, error.name);
 
   if (error.name === "CastError") {
     return response.status(400).send({ error: "malformatted id" });

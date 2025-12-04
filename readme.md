@@ -6,3 +6,5 @@ https://fullstackopen.com
 
 The course covers modern web development with JavaScript, React, Node.js, Express, MongoDB, GraphQL, TypeScript, CI/CD, and more.  
 All exercises, notes, and related code will be organized in this repository.
+
+Render url -> https://fullstackcourse-p6dd.onrender.com

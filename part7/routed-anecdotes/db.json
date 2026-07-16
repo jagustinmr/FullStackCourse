@@ -1,0 +1,19 @@
+{
+  "anecdotes": [
+    {
+      "content": "Premature optimization is the root of all evil",
+      "author": "Donald Knuth",
+      "info": "http://wiki.c2.com/?PrematureOptimization",
+      "votes": 0,
+      "id": "2"
+    },
+    {
+      "content": "a",
+      "author": "a",
+      "info": "aaaaaa",
+      "votes": 0,
+      "id": "loEvE9DeKg8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
